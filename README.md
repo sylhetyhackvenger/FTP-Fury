@@ -1,4 +1,4 @@
-🔥 FTP-Fury Ultimate Exploitation Framework
+# 🔥 FTP-Fury Ultimate Exploitation Framework
 <p align="center">
   <img src="assets/1.png" alt="Banner 1" width="100%">
 </p>
