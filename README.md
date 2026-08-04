@@ -37,9 +37,47 @@ I HAVE REMOVED ROOTKIT (SUDO) CAPABILITIES to prevent unauthorized privilege esc
 · You intend to cause harm or damage
 · You are not a security professional
 
+# Description :
+FTP-Fury is a professional-grade, all-in-one penetration testing framework engineered for security researchers and ethical hackers. This powerful tool consolidates over 40 critical CVEs into a single, cohesive platform, enabling comprehensive security assessments across diverse attack surfaces.
+
+🎯 Core Capabilities
+
+The framework excels in automated vulnerability detection and exploitation across web applications, network services, databases, and enterprise systems. It intelligently scans targets, identifies weaknesses, and executes precise exploits to demonstrate real-world attack vectors.
+
+🛠️ Feature-Rich Arsenal
+
+FTP-Fury provides a complete offensive security toolkit including:
+
+· Multi-vector exploitation (RCE, Auth Bypass, Info Disclosure)
+· Interactive shells with file transfer, persistence, and keylogging
+· Web dashboard with REST API for remote management
+· SQLite database for storing targets, credentials, and sessions
+· Automated scanning with aggressive exploitation mode
+
+🎮 User Experience
+
+The framework offers three interfaces: a powerful CLI for experts, a sleek web dashboard for visual management, and a REST API for automation. Each session provides full TTY-like interaction with command history, tab completion, and advanced features.
+
+⚡ Attack Surface
+
+FTP-Fury targets legacy and misconfigured systems including WordPress, Drupal, Apache, Nginx, IIS, Tomcat, WebLogic, MySQL, PostgreSQL, SSH, RDP, SMB, and more. It exploits critical vulnerabilities like Shellshock, Log4Shell, EternalBlue, and Heartbleed.
+
+🛡️ Ethical Framework
+
+RootKit (SUDO) capabilities are removed to prevent privilege escalation. The tool is designed for authorized testing only with explicit permission. It includes comprehensive logging, error handling, and session management for professional security assessments.
+
+🚀 Perfect For
+
+· Red Team operations
+· Vulnerability validation
+· CTF competitions
+· Security research
+· Internal network assessments
+
 ---
 
-🏗️ Digital Architectural Simulator
+Remember: With great power comes great responsibility. Use wisely. 🔒
+---
 
 System Architecture Overview
 
@@ -278,7 +316,7 @@ python-nmap>=0.7.1
 
 ```bash
 # Clone the repository
-git clone https://github.com/SYLHETYHACKVENGER/FTP-Fury.git
+git clone https://github.com/sylhetyhackvenger/FTP-Fury
 cd FTP-Fury
 
 # Install dependencies
@@ -622,46 +660,7 @@ Contribution Guidelines
 
 Author: SYLHETYHACKVENGER (THE-ERROR808)
 
-· Email: [contact@example.com]
 · GitHub: [github.com/SYLHETYHACKVENGER]
-
----
-
-🔄 Version History
-
-v5.0.0 - Ultimate Edition (Current)
-
-· ✅ 40+ exploit modules
-· ✅ Web dashboard
-· ✅ Interactive shell
-· ✅ File transfer
-· ✅ Persistence mechanisms
-· ✅ Advanced session management
-· ✅ REST API
-· ✅ Module system
-· ✅ Credential management
-
-v4.0.0 - Enterprise Edition
-
-· Added 20+ modules
-· Enhanced scanning
-· Better session handling
-
-v3.0.0 - Professional Edition
-
-· Web interface
-· Database integration
-· Module system
-
-v2.0.0 - Standard Edition
-
-· Basic exploits
-· Command-line interface
-
-v1.0.0 - Initial Release
-
-· Core framework
-· Basic modules
 
 ---
 
@@ -670,7 +669,6 @@ v1.0.0 - Initial Release
 · Security Community - For vulnerability research
 · CVE Database - For vulnerability information
 · Exploit-DB - For exploit references
-· All Contributors - For making this possible
 
 ---
 
