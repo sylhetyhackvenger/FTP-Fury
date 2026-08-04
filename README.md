@@ -1,5 +1,7 @@
 🔥 FTP-Fury Ultimate Exploitation Framework
-
+<p align="center">
+  <img src="assets/1.png" alt="Banner 1" width="100%">
+</p>
 <div align="center">
 
 ![FTP-Fury](https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red)
@@ -231,6 +233,10 @@ sequenceDiagram
 ```
 
 ---
+
+<p align="center">
+  <img src="assets/2.png" alt="Banner 2" width="100%">
+</p>
 
 🚀 Features
 
