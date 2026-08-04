@@ -2,12 +2,12 @@
 
 <div align="center">
 
-https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red
-https://img.shields.io/badge/version-5.0.0-blue
-https://img.shields.io/badge/license-UNLICENSED-orange
-https://img.shields.io/badge/python-3.8%2B-brightgreen
-https://img.shields.io/badge/CVEs-40%2B-critical
-https://img.shields.io/badge/modules-40%2B-success
+![FTP-Fury](https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red)
+![Version](https://img.shields.io/badge/version-5.0.0-blue)
+![License](https://img.shields.io/badge/license-UNLICENSED-orange)
+![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+![CVEs](https://img.shields.io/badge/CVEs-40%2B-critical)
+![Modules](https://img.shields.io/badge/modules-40%2B-success)
 
 </div>
 
