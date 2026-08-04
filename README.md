@@ -2,12 +2,6 @@
 
 
 
-https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red?style=for-the-badge&logo=python
-https://img.shields.io/badge/version-5.0.0-blue?style=for-the-badge
-https://img.shields.io/badge/license-UNLICENSED-orange?style=for-the-badge
-https://img.shields.io/badge/python-3.8%2B-brightgreen?style=for-the-badge
-https://img.shields.io/badge/CVEs-40%2B-critical?style=for-the-badge
-https://img.shields.io/badge/modules-40%2B-success?style=for-the-badge
 
 
 ---
