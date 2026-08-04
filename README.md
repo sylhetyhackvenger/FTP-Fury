@@ -9,7 +9,6 @@ https://img.shields.io/badge/python-3.8%2B-brightgreen?style=for-the-badge
 https://img.shields.io/badge/CVEs-40%2B-critical?style=for-the-badge
 https://img.shields.io/badge/modules-40%2B-success?style=for-the-badge
 
-</div>
 
 ---
 
