@@ -1,8 +1,15 @@
-# 🔥 FTP-Fury Ultimate Exploitation Framework
+🔥 FTP-Fury Ultimate Exploitation Framework
 
+<div align="center">
 
+https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red
+https://img.shields.io/badge/version-5.0.0-blue
+https://img.shields.io/badge/license-UNLICENSED-orange
+https://img.shields.io/badge/python-3.8%2B-brightgreen
+https://img.shields.io/badge/CVEs-40%2B-critical
+https://img.shields.io/badge/modules-40%2B-success
 
-
+</div>
 
 ---
 
@@ -36,48 +43,48 @@ System Architecture Overview
 
 ```mermaid
 graph TB
-    subgraph "FTP-Fury Framework Core"
-        CLI[Command Line Interface]
-        WEB[Web Dashboard - Flask]
-        API[REST API Endpoints]
-        DB[(SQLite Database)]
-        SM[Session Manager]
-        EM[Exploit Manager]
+    subgraph Core["FTP-Fury Framework Core"]
+        CLI["Command Line Interface"]
+        WEB["Web Dashboard - Flask"]
+        API["REST API Endpoints"]
+        DB[("SQLite Database")]
+        SM["Session Manager"]
+        EM["Exploit Manager"]
     end
     
-    subgraph "Exploitation Engine"
-        DET[Detection Engine]
-        EX[Exploit Executor]
-        PAY[Payload Generator]
-        CRED[Credential Manager]
+    subgraph Engine["Exploitation Engine"]
+        DET["Detection Engine"]
+        EX["Exploit Executor"]
+        PAY["Payload Generator"]
+        CRED["Credential Manager"]
     end
     
-    subgraph "Network Layer"
-        SCAN[Network Scanner]
-        SOCK[Socket Handler]
-        PROXY[Proxy Manager]
-        DNS[DNS Resolver]
+    subgraph Network["Network Layer"]
+        SCAN["Network Scanner"]
+        SOCK["Socket Handler"]
+        PROXY["Proxy Manager"]
+        DNS["DNS Resolver"]
     end
     
-    subgraph "Session Layer"
-        SHELL[Interactive Shell]
-        FILE[File Transfer]
-        PERSIST[Persistence]
-        KEY[Keylogger]
+    subgraph Session["Session Layer"]
+        SHELL["Interactive Shell"]
+        FILE["File Transfer"]
+        PERSIST["Persistence"]
+        KEY["Keylogger"]
     end
     
-    subgraph "Modules (40+)"
-        CVE1[VSFTPD - CVE-2011-2523]
-        CVE2[Shellshock - CVE-2014-6271]
-        CVE3[Log4Shell - CVE-2021-44228]
-        CVE4[Cisco ISE - CVE-2025-20337]
-        CVE5[EternalBlue - CVE-2017-0144]
-        CVE6[Heartbleed - CVE-2014-0160]
-        CVE7[Struts2 - CVE-2017-5638]
-        CVE8[WordPress - CVE-2019-8942]
-        CVE9[Drupal - CVE-2018-7600]
-        CVE10[Jenkins - CVE-2017-1000353]
-        OTHERS[... 30+ More Modules]
+    subgraph Modules["Modules (40+)"]
+        CVE1["VSFTPD - CVE-2011-2523"]
+        CVE2["Shellshock - CVE-2014-6271"]
+        CVE3["Log4Shell - CVE-2021-44228"]
+        CVE4["Cisco ISE - CVE-2025-20337"]
+        CVE5["EternalBlue - CVE-2017-0144"]
+        CVE6["Heartbleed - CVE-2014-0160"]
+        CVE7["Struts2 - CVE-2017-5638"]
+        CVE8["WordPress - CVE-2019-8942"]
+        CVE9["Drupal - CVE-2018-7600"]
+        CVE10["Jenkins - CVE-2017-1000353"]
+        OTHERS["... 30+ More Modules"]
     end
     
     CLI --> EM
@@ -118,21 +125,21 @@ graph TB
 📊 Module Architecture Diagram
 
 ```mermaid
-flowchart LR
-    subgraph "Core Framework"
+flowchart TD
+    subgraph CoreFramework["Core Framework"]
         A[ExploitFramework]
         B[DatabaseManager]
         C[SessionManager]
     end
     
-    subgraph "Module Base"
+    subgraph ModuleBase["Module Base"]
         D[ExploitModule ABC]
-        E[detect()]
-        F[exploit()]
-        G[check_prerequisites()]
+        E[detect Method]
+        F[exploit Method]
+        G[check_prerequisites Method]
     end
     
-    subgraph "Implemented Modules"
+    subgraph ImplementedModules["Implemented Modules"]
         H1[VSFTPDModule]
         H2[ShellshockModule]
         H3[Log4ShellModule]
@@ -148,7 +155,7 @@ flowchart LR
         H13[SSHModule]
         H14[TelnetModule]
         H15[WebLogicModule]
-        H16[... 25+ More]
+        H16[Other Modules]
     end
     
     A --> D
