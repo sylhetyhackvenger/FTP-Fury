@@ -1,6 +1,6 @@
 # 🔥 FTP-Fury Ultimate Exploitation Framework
 
-<div align="center">
+
 
 https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red?style=for-the-badge&logo=python
 https://img.shields.io/badge/version-5.0.0-blue?style=for-the-badge
