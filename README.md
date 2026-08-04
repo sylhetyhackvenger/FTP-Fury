@@ -3,7 +3,7 @@
 <div align="center">
 
 ![FTP-Fury](https://img.shields.io/badge/FTP--Fury-Ultimate%20Edition-red)
-![Version](https://img.shields.io/badge/version-5.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-UNLICENSED-orange)
 ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
 ![CVEs](https://img.shields.io/badge/CVEs-40%2B-critical)
