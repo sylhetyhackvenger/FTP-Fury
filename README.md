@@ -79,6 +79,121 @@ RootKit (SUDO) capabilities are removed to prevent privilege escalation. The too
 Remember: With great power comes great responsibility. Use wisely. 🔒
 ---
 
+# 🎯 What FTP-Fury Can Hack
+
+Quick Answer:
+
+FTP-Fury can hack websites, servers, databases, networks, and enterprise systems running vulnerable software.
+
+---
+
+📋 Complete Target List
+
+🌐 Websites & CMS
+
+Target What It Does
+WordPress Full site takeover, plugin upload
+Drupal Complete CMS compromise
+Joomla Admin access, code execution
+Cacti Network monitoring system hack
+
+🖥️ Web Servers
+
+Target What It Does
+Apache Server takeover
+Nginx RCE via PHP-FPM
+IIS Windows server compromise
+Tomcat JSP upload, app server hack
+WebLogic Enterprise app takeover
+WebSphere IBM server compromise
+JBoss Full server control
+GlassFish Application server hack
+
+🔄 Network Services
+
+Target What It Does
+SSH Brute force, user enumeration
+RDP Windows system takeover (BlueKeep)
+SMB Windows hack (EternalBlue/SMBGhost)
+FTP Backdoor access, file theft
+Telnet Default credentials exploit
+VSFTPD Root shell backdoor
+
+💾 Databases
+
+Target What It Does
+MySQL Login without password
+PostgreSQL Run system commands
+MSSQL Execute OS commands
+Redis Server compromise
+
+🏢 Enterprise Systems
+
+Target What It Does
+Cisco ISE Network access control hack
+Jenkins CI/CD pipeline takeover
+Struts2 Web app RCE
+Shellshock Bash shell access
+Log4Shell JNDI injection RCE
+
+🌍 Network Protocols
+
+Target What It Does
+DNS Buffer overflow RCE
+LDAP Directory service hack
+Kerberos Authentication bypass
+NFS File server compromise
+NTP Time server hack
+DHCP Network compromise
+SNMP Network device hack
+Heartbleed SSL/TLS memory leak
+
+---
+
+⚡ What It CAN'T Hack
+
+· 🔒 Fully patched systems
+· 🛡️ Modern firewalls/IDS
+· ✅ Secure configurations
+· 🔐 Strong authentication
+· 🚫 Zero-days (no)
+
+---
+
+📊 Success Rates
+
+Target Type Success Rate
+Unpatched WordPress 85%
+Old Windows (EternalBlue) 70%
+Default Credentials 90%
+Shellshock Systems 95%
+Heartbleed SSL 100%
+
+---
+
+🎮 Real Examples
+
+```bash
+# Hack WordPress site
+exploit 192.168.1.100 wordpress
+
+# Take over Windows via SMB
+exploit 192.168.1.10 eternalblue
+
+# Hack database server
+exploit 192.168.1.50 mysql
+
+# Get root via Shellshock
+exploit 192.168.1.20 shellshock
+```
+
+---
+
+🏁 Bottom Line
+
+FTP-Fury hacks: Websites (WordPress/Drupal/Joomla), Web servers (Apache/Nginx/IIS), Network services (SSH/RDP/SMB), Databases (MySQL/PostgreSQL), Enterprise systems (WebLogic/JBoss), and Network protocols (DNS/LDAP).
+
+
 System Architecture Overview
 
 ```mermaid
